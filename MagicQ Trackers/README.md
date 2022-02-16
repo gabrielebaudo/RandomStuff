@@ -15,4 +15,8 @@ To use it:
 - Select your heads and record a position palette. Than select it and click the soft button "View Palette", Set Traker, Traker and write the Tracker ID  
   Now the UDP client message will feed palette XYZ information, so the heads will move following the tracker.
   
-AIM: You can build a piece of hardware with a camera, or ir sensor, to collect position information of an object and send them via UDP datagram to MagicQ in order to build a followspot
+### AIM: You can build a piece of hardware with a camera, or ir sensor, to collect position information of an object and send them via UDP datagram to MagicQ in order to build a followspot
+
+## Folder Content:
+  - UDPClient.c and UDPClient: The source file and the exec file for the UDP Client. It works on all POSIX compatible systems (Linux distros and Mac OS)
+  - UDPServer.c and UDPServer: The source file and the exec file for the UDP Server. You can use it to test the client, and see the UDP message sent on the port 
